@@ -1,0 +1,196 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: whitesmoke
+}
+
+header {
+    background-color: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   
+}
+
+header .container {
+    display: flex;
+    /* alinhamento horizontal */
+    justify-content: space-between;
+    /* alinhamento vertical */
+    align-items: center;
+    
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 25px;
+}
+
+
+
+header nav ul li a:hover{
+    color: rgb(245, 7, 173);
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color:black
+    
+}
+
+    header nav ul {
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+    .container {
+        width: 1200px;
+        max-width: 100%;
+        margin: 0 auto;
+        height: 55px;
+    }
+    .logo{
+        height: 55px;
+       margin-left:-5%;
+    }
+    .container h1{
+        font-family:'MonteCarlo', cursive;
+        font-style: italic;
+        color: rgba(82, 24, 3, 0.712);
+       font-size: 80px;
+       margin-left: 10px;}
+
+       main section.banner .container{
+        display: flex;
+        width: 100%;        
+      height: 590px;
+      align-items: center;
+      justify-content: center;
+      margin-top: 0px;
+      background-size: cover;
+      animation: changeBackgroundimg 20s infinite;
+    }
+    @keyframes changeBackgroundimg {
+        0% {
+          background-image:url(https://radaic.com.br/wp-content/uploads/2020/05/RELAXANTE.jpg)
+        }
+        50% {
+          background-image:url(https://dinamicaestetica.com.br/wp-content/uploads/2019/06/limpeza_facial.jpg);
+        }
+        100% {
+          background-image:url(https://www.clinicadermacorpus.com.br/upload/service/jHQLJeOqPBmGpUgbcmRUqGCqEDOuIAijTVvBffVW.jpeg);
+        }
+      }
+
+footer {
+    
+        text-align: center;
+        background-color:whitesmoke
+        padding: 10px;
+        color: palevioletred;
+    }
+    .intro{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        box-shadow:5px 5px 10px 10px rgba(241, 183, 239, 0.637);      
+        margin: 10px;
+        
+    }
+    .texto{
+        align-items:center;
+        margin: 50px;
+        text-align: justify;
+        font-size: 18px;}
+        tex
+
+
+
+.containerservicos h1,  h1{
+    margin: 0;
+    font-family: 'MonteCarlo', cursive;
+    color: rgba(0, 0, 0, 0.8);
+   font-size: 60px;
+   text-align: center;
+    
+}
+
+.servicos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    padding: 15px;
+    
+    
+}
+
+.img{
+  width: 40%;
+  margin-left: 30%;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-style: dotted;
+    
+}
+iframe{
+    width: 99%;
+    align-self: center;}
+
+    /* RESPONSIVIDADE*/
+@media (max-width: 900px) {
+    header .container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+@media(max-width:900px){
+    main section.banner .container{
+        
+    width: 100%;
+    margin-top: 5px;
+    }
+
+}
+@media(max-width:500px){
+    .img{
+        width: 100%;
+        margin:0;
+    }
+}
+@media(max-width:500px){
+    .intro{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        box-shadow:5px 5px 10px 10px rgba(241, 183, 239, 0.637);
+        margin: 10px;
+        text-align: justify;}}}
+
+@media(max-width:500px){
+    .imgsobre{
+        border-radius: 100%;
+        height: 300px;       
+        margin-right: 25%;
+       margin-bottom: 20% ;
+    
+    }}
+    @media(max-width:1500px){
+        .logo{
+            height: 40px;
+          
+
+        }
+    }
+
