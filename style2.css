@@ -40,9 +40,10 @@ header nav ul li a:hover{
 }
 
 header nav ul li a {
-    text-decoration: none;
-    color:black
-    
+    text-decoration:none;
+    color:black;
+    font-family:'MonteCarlo', cursive;
+    font-size: 25px;
 }
 
     header nav ul {
@@ -63,8 +64,8 @@ header nav ul li a {
     .container h1{
         font-family:'MonteCarlo', cursive;
         font-style: italic;
-        color: rgba(82, 24, 3, 0.712);
-       font-size: 80px;
+        color: rgba(82, 24, 3, 0.92);
+       font-size: 100px;
        margin-left: 10px;}
 
        main section.banner .container{
@@ -79,13 +80,13 @@ header nav ul li a {
     }
     @keyframes changeBackgroundimg {
         0% {
-          background-image:url(https://radaic.com.br/wp-content/uploads/2020/05/RELAXANTE.jpg)
+          background-image:url(female-getting-relaxation-massage-in-beauty-salon-high-angle-view.jpg)
         }
         50% {
-          background-image:url(https://dinamicaestetica.com.br/wp-content/uploads/2019/06/limpeza_facial.jpg);
+          background-image:url(beauty-and-spa.jpg);
         }
         100% {
-          background-image:url(https://www.clinicadermacorpus.com.br/upload/service/jHQLJeOqPBmGpUgbcmRUqGCqEDOuIAijTVvBffVW.jpeg);
+          background-image:url(woman-enjoying-a-stone-massage.jpg);
         }
       }
 
